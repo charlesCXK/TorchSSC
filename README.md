@@ -5,7 +5,7 @@
 
 Code release for the paper **3D Sketch-aware Semantic Scene Completion via Semi-supervised Structure Prior**, *CVPR 2020*. [[arXiv]](https://arxiv.org/abs/2003.14052), [[Supplementary Material and Demo]](https://charlesCXK.github.io)
 
-Code and data will be made public no later than the end of this year. Thanks for your attention!
+#### Code and data will be made public no later than the end of this year. Thanks for your attention!
 
 ## Citation
 
