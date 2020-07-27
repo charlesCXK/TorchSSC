@@ -1,1 +1,11 @@
 .DS_Store
+log/
+*.npz
+*.npy
+*.png
+*.jpg
+*.log
+*.pth
+__pycache__
+
+
