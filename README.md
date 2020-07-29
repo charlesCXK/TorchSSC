@@ -20,7 +20,8 @@ Implement some state-of-the-art methods of Semantic Scene Completion (SSC) task 
 
   Code release for the paper **3D Sketch-aware Semantic Scene Completion via Semi-supervised Structure Prior**, *CVPR 2020*. [[arXiv]](https://arxiv.org/abs/2003.14052), [[Supplementary Material and Demo]](https://charlesCXK.github.io)
 
-  ​
+
+
 
 ## Performance
 
@@ -37,7 +38,7 @@ Implement some state-of-the-art methods of Semantic Scene Completion (SSC) task 
 
 
 
-## Data preparation && Environment Installation
+## Data Preparation && Environment Installation
 
 #### Pretrained ResNet-50
 
@@ -57,7 +58,7 @@ Please download NYU dataset and then put it into `./DATA/NYU`.
 | BaiDu Cloud  | Link: https://pan.baidu.com/s/1GfWqAbsfMp3NOjFcEnL54A Key: v5ta |
 | Google Drive | https://drive.google.com/drive/folders/121yZXBZ8wV77WRXRur86YBA4ifJEhsJQ?usp=sharing |
 
-#### Installation
+#### Environment Installation
 
 Please refer to [this documentation](./install.md)
 
@@ -80,7 +81,7 @@ $ python -m torch.distributed.launch --nproc_per_node=$NGPUS train.py -p 10097
 ```
 
 - `-p` is the port number. It is about the distributed training. If you run more than one experiments in the same machine, you should set different ports for them.
-- The tensorboard file is saved in `log/tb/` directory.
+- The tensorboard file is saved in ` sketch.nyu/log/tb/` directory.
 
 #### Inference
 

@@ -137,7 +137,7 @@ class CVAE(nn.Module):
         )
 
         self.mean = nn.Conv3d(self.latent_size, self.latent_size, kernel_size=1, bias=True)      # predict mean.
-        self.log_var = nn.Conv3d(self.latent_size, self.latent_size, kernel_size=1, bias=True)     # predict mean.
+        self.log_var = nn.Conv3d(self.latent_size, self.latent_size, kernel_size=1, bias=True)     # predict log(var).
 
 
         self.decoder_x = nn.Sequential(
