@@ -1,5 +1,5 @@
 # TorchSSC
-![license](https://img.shields.io/badge/license-MIT-green)![PyTorch-1.0.0](https://img.shields.io/badge/PyTorch-1.0.0-blue)
+![license](https://img.shields.io/badge/license-MIT-green) ![PyTorch-1.0.0](https://img.shields.io/badge/PyTorch-1.0.0-blue)
 
 Implement some state-of-the-art methods of Semantic Scene Completion (SSC) task in PyTorch.
 
