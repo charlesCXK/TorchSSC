@@ -14,6 +14,7 @@ The code is developed using Python 3.6 with PyTorch 1.0.0. The code is developed
    **(1) Create a conda environment:**
 
    ```shell
+   $ SET CONDA_RESTORE_FREE_CHANNEL=1
    $ conda env create -f ssc.yaml
    $ conda activate ssc
    ```
